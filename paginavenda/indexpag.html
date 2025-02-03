@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="LOGO-GRUPO-MOTIRO_preto_AF_.png"
+      type="image/x-icon"
+    />
+    <title>Grupo Motiró / Home</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/stylepag.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="/LOGO-GRUPO-MOTIRO_preto_AF_.png"
+        alt="Logo"
+        class="header-image"
+      />
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">sobre</a>
+        <a href="#services">serviços</a>
+        <a href="#projects">projetos</a>
+        <a href="#contact">contato</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="Pesquisar..."
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+        <h3>login</h3>
+        <input type="email" placeholder="Insira seu email" class="box" />
+        <input type="password" placeholder="Insira sua senha" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Lembre-se de mim</label>
+          <a href="#">Esqueceu a senha?</a>
+        </div>
+        <input type="submit" value="Entrar" class="btn" />
+        <p>Não tem uma conta? <a href="#">criar em segundos!</a></p>
+      </form>
+    </header>
+
+    <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+
+      <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>telefone</h3>
+        <p>+55 11 99999-9999</p>
+        <p>+55 11 99999-9999</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>email</h3>
+        <p>exemplo@gmail.com</p>
+        <p>exemplo2@gmail.com</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>endereço</h3>
+        <p>Av. Getúlio Vargas, 70</p>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </div>
+    <section class="sales-hero">
+      <h1>Motiro Parque Central – Seu novo começo está aqui.</h1>
+      <p>
+        Conforto, lazer e uma localização privilegiada para viver o melhor da
+        vida todos os dias.
+      </p>
+      <a href="#contact" class="btn">Solicitar Orçamento</a>
+    </section>
+
+    <!-- Seção de Produtos/Serviços -->
+    <section class="products">
+      <div class="product-card">
+        <img src="/paginavenda/images/regiao.jpg" alt="Serviço 1" />
+        <h3>Boa Região</h3>
+        <p>
+          📍 Localização estratégica, com fácil acesso a comércios, serviços e
+          transporte para facilitar seu dia a dia.
+        </p>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+      <div class="product-card">
+        <img
+          src="/paginavenda/images/FIGUEIRAS_IMPLANTACAO_HR_bolotario-HORAF.png"
+          alt="Serviço 2"
+        />
+        <h3>Projeto de Planta</h3>
+        <p>
+          Ambientes bem distribuídos, com espaços funcionais e acabamento de
+          alta qualidade para mais conforto e praticidade.
+        </p>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+      <div class="product-card">
+        <img src="/paginavenda/images/piscina.jpg" alt="Serviço 3" />
+        <h3>Áreas de Lazer</h3>
+        <p>
+          Piscina, academia, salão de festas e muito mais, garantindo lazer e
+          bem-estar para toda a família.
+        </p>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/scriptpag.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
+  </body>
+</html>
